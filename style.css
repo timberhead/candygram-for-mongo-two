@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+.main-header {
+    /* display: flex; */
+    padding: 40px;
+    font: Times New Roman;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+}
+nav {
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    padding: 0px;
+    background-color: darkred;
+    justify-content: space-evenly;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+}
+ 
+nav a {
+    /* display: flex; */
+    padding: 15px;
+    /* border-style: solid; */
+    /* border: 2px; */
+    /* border-color: black; */
+    /* justify-content: space-evenly; */
+    /* background-color: darkred; */
+    font: Times New Roman;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    margin-top: auto;
+}
+
+.contacts {
+    flex: 1; 
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: cornflowerblue;
+}
+
+.images {
+    flex: 1;
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: cornflowerblue;
+}
+
+.work {
+    flex: 1; 
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: cornflowerblue;
+}
+
+.card {
+     border-style: solid;
+     border-width: 2px;
+     border-radius: 5px;
+     padding: 2px;
+     flex: 0 0 300px;
+     margin: 10px;
+     text-align: center;
+}
