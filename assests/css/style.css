@@ -43,11 +43,12 @@ nav a {
 
 }
 
-main {
+/* main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
-}
+} */
 
 
 footer {
@@ -62,31 +63,34 @@ footer {
     margin-top: auto;
 }
 
-.contacts {
+.addToCart { 
     flex: 1; 
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: cornflowerblue;
-}
+} 
 
-.images {
-    flex: 1;
+.myWork { 
+    flex: 1; 
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: cornflowerblue;
-}
+} 
 
 .work {
     flex: 1; 
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: cornflowerblue;
