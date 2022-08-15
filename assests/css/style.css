@@ -1,21 +1,26 @@
-
-
-
-
-
-
-
 .main-header {
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
     padding: 40px;
     font: Times New Roman;
-    text-align: center;
+    justify-content: center;
+    /* text-align: justify; */
     background-color: cornflowerblue;
     color: antiquewhite;
     border-style: solid;
     border: 2px;
     border-color: black;
 }
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+
+}
+
 nav {
     display: flex;
     width: 100%;
@@ -27,7 +32,7 @@ nav {
     border: 2px;
     border-color: black;
 }
- 
+
 nav a {
     /* display: flex; */
     padding: 15px;
@@ -56,15 +61,18 @@ footer {
     width: 100%;
     bottom: 0;
     padding: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
     justify-content: center;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: darkred;
     color: antiquewhite;
     margin-top: auto;
 }
 
-.addToCart { 
-    flex: 1; 
+.addToCart {
+    flex: 1;
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
@@ -72,10 +80,51 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: cornflowerblue;
-} 
+}
 
-.myWork { 
-    flex: 1; 
+.listGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 2px;
+    flex: 0 0 50px;
+    margin-top: auto;
+    text-align: center;
+    background-color: darkred;
+    color: antiquewhite;
+
+
+}
+
+.list-group-item {
+    /* flex: 1; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 100%;
+    bottom: 0;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 2px;
+    flex: 0 0 50px;
+    margin-top: auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+}
+
+.myWork {
+    flex: 1;
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
@@ -83,10 +132,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: cornflowerblue;
-} 
+    text-decoration: underline;
+}
 
 .work {
-    flex: 1; 
+    flex: 1;
     background-color: antiquewhite;
     padding: 10px;
     display: flex;
@@ -97,11 +147,11 @@ footer {
 }
 
 .card {
-     border-style: solid;
-     border-width: 2px;
-     border-radius: 5px;
-     padding: 2px;
-     flex: 0 0 300px;
-     margin: 10px;
-     text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 2px;
+    flex: 0 0 300px;
+    margin: 10px;
+    text-align: center;
 }
