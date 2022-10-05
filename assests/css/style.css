@@ -67,24 +67,26 @@ footer {
     justify-content: center;
     text-align: center;
     background-color: darkred;
-    color: antiquewhite;
+    color: whitesmoke;
     margin-top: auto;
 }
 
 .addToCart {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: cornflowerblue;
     padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    color: cornflowerblue;
+    color: whitesmoke;
 }
 
 .listGroup {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    align-items: center;
     width: 100%;
     bottom: 0;
     padding: 0px;
@@ -98,7 +100,7 @@ footer {
     margin-top: auto;
     text-align: center;
     background-color: darkred;
-    color: antiquewhite;
+    color: whitesmoke;
 
 
 }
@@ -106,8 +108,11 @@ footer {
 .list-group-item {
     /* flex: 1; */
     display: flex;
+    align-items: center;
+    
+    
     /* justify-content: space-evenly; */
-    width: 100%;
+    width: 60%;
     bottom: 0;
     padding: 0px;
     justify-content: center;
@@ -120,12 +125,12 @@ footer {
     margin-top: auto;
     text-align: center;
     background-color: cornflowerblue;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 .myWork {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -137,7 +142,7 @@ footer {
 
 .work {
     flex: 1;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     padding: 10px;
     display: flex;
     flex-direction: row;
